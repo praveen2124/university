@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    display: flex;
+    position: sticky !important;
+    /* justify-content: space-between; */
+    align-items: left;
+    background-color: rgb(44, 47, 230);
+    height: 80px;
+    
+}
+nav img{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 25%;
+      
+}
+
+.nav-link{
+    flex: 1;
+    text-align: right;
+    list-style-type: none;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 19px 21px;
+    position: relative;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: rgb(247, 244, 244);
+    text-align: right;
+    font-size: 22px;
+    font-family: Cambria, Cochin;
+}
+
+.nav-link a:hover{
+  color: rgb(255, 213, 0);
+  /* color:rgb(247, 168, 21) ; */
+  border-bottom: 3px solid rgb(247, 168, 21);
+}
+
+h1{
+    font-size: 35px;
+    display: inline-block;
+    color: azure;
+    padding-left: 40px;
+   
+}
+
+nav p{
+    color: azure;
+    font-size: 25px;
+    margin-top: 42px;
+    margin-left: -20rem;
+    margin-right: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#headline{
+    background-color: rgb(255, 213, 0);
+}
+
+#p1{
+    margin-left: 45rem;
+    margin-top: -85px;
+    word-spacing: 65px;
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   /* body  */
+
+#aboutuni{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 300px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.692)), url(campus.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+
+}
+
+.content{
+    width: 80%;
+    height: 800px;
+    background-color: #ffd000;
+    opacity: .8;
+    padding: 15px ;
+    padding-bottom: 4px;
+}
+
+.content h3{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid;
+    padding: 5px;
+}
+.content p{
+    font-size: 20px;
+    padding: 12px;
+    word-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.content h4{
+    font-size: 29px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+#pp1{
+       display: flex;
+      justify-content: space-evenly;
+      margin-top: 10px;
+   
+}
+ #cc1,#cc2{
+    background-color: #ffd000;
+    width: 650px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+#cc1 h2, #cc2 h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+#cc1 p, #cc2 p{
+    font-size: 20px;
+    word-spacing: 10px;
+    padding: 20px;
+    
+}
+
+
+
+/* footer */
+#p2{
+    background-color: rgb(41, 44, 216);
+    margin-top: 20px;
+   padding-top: 40px;
+}
+
+#p2 h1{
+    font-size: 60px;
+}
+#p2 p{
+    color: azure;
+    font-size: 25px;
+    margin-left: 7.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#p2 a{
+    color:  rgb(255, 213, 0);
+    text-decoration: none;
+    font-size: 33px;
+    margin-right: 15px;
+    /* color: #ffd000; */
+    display: inline-flex;
+    transition: transform 0.5s;
+    margin-left: 65px;
+    margin-top: 30px;
+
+}
+
+#p2 a:hover{
+    color: #ffd000;
+    transform: translateY(-5px);
+}
+
+#foot{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+    text-align: end;
+    margin-top: -150px;
+    /* padding-top: -80px; */
+}
+
+#foot p{
+    font-weight: bold;
+    border-bottom: 2px solid yellow;
+}
+
+#foot ul{
+    list-style: none;
+    font-weight: 400;
+}
+#foot ul li{
+    color:rgb(228, 228, 228) ;
+    padding: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+#p2 #bot{
+    font-size: 15px;
+    padding-top: 10px;
+}
